@@ -1,0 +1,306 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData body-parser
+20 silly mapToRegistry name body-parser
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'body-parser',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'body-parser',
+23 silly mapToRegistry   name: 'body-parser',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+25 silly fetchNamedPackageData cfenv
+26 silly mapToRegistry name cfenv
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'cfenv',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'cfenv',
+29 silly mapToRegistry   name: 'cfenv',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/cfenv
+31 silly fetchNamedPackageData cloudant
+32 silly mapToRegistry name cloudant
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'cloudant',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'cloudant',
+35 silly mapToRegistry   name: 'cloudant',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/cloudant
+37 silly fetchNamedPackageData dotenv
+38 silly mapToRegistry name dotenv
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'dotenv',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'dotenv',
+41 silly mapToRegistry   name: 'dotenv',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/dotenv
+43 silly fetchNamedPackageData express
+44 silly mapToRegistry name express
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'express',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'express',
+47 silly mapToRegistry   name: 'express',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/express
+49 silly fetchNamedPackageData socket.io
+50 silly mapToRegistry name socket.io
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'socket.io',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'socket.io',
+53 silly mapToRegistry   name: 'socket.io',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+55 silly fetchNamedPackageData impress-server
+56 silly mapToRegistry name impress-server
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'impress-server',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'impress-server',
+59 silly mapToRegistry   name: 'impress-server',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/impress-server
+61 verbose request uri https://registry.npmjs.org/body-parser
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 11:26:25 AM
+64 verbose request id 5dd9beb6fb1ddf7b
+65 http request GET https://registry.npmjs.org/body-parser
+66 verbose request uri https://registry.npmjs.org/cfenv
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 11:26:25 AM
+69 http request GET https://registry.npmjs.org/cfenv
+70 verbose request uri https://registry.npmjs.org/cloudant
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 11:26:25 AM
+73 http request GET https://registry.npmjs.org/cloudant
+74 verbose request uri https://registry.npmjs.org/dotenv
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 11:26:25 AM
+77 http request GET https://registry.npmjs.org/dotenv
+78 verbose request uri https://registry.npmjs.org/express
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 11:26:25 AM
+81 http request GET https://registry.npmjs.org/express
+82 verbose request uri https://registry.npmjs.org/socket.io
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 11:26:25 AM
+85 http request GET https://registry.npmjs.org/socket.io
+86 verbose request uri https://registry.npmjs.org/impress-server
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 11:26:25 AM
+89 http request GET https://registry.npmjs.org/impress-server
+90 info retry will retry, error on last attempt: Error: connect EACCES 151.101.44.162:443
+91 info retry will retry, error on last attempt: Error: connect EACCES 151.101.44.162:443
+92 info retry will retry, error on last attempt: Error: connect EACCES 151.101.44.162:443
+93 info retry will retry, error on last attempt: Error: connect EACCES 151.101.44.162:443
+94 info retry will retry, error on last attempt: Error: connect EACCES 151.101.44.162:443
+95 info retry will retry, error on last attempt: Error: connect EACCES 151.101.44.162:443
+96 info retry will retry, error on last attempt: Error: connect EACCES 151.101.44.162:443
+97 info attempt registry request try #2 at 11:26:35 AM
+98 http request GET https://registry.npmjs.org/dotenv
+99 info attempt registry request try #2 at 11:26:35 AM
+100 http request GET https://registry.npmjs.org/body-parser
+101 info attempt registry request try #2 at 11:26:35 AM
+102 http request GET https://registry.npmjs.org/cfenv
+103 info attempt registry request try #2 at 11:26:35 AM
+104 http request GET https://registry.npmjs.org/cloudant
+105 info attempt registry request try #2 at 11:26:35 AM
+106 http request GET https://registry.npmjs.org/express
+107 info attempt registry request try #2 at 11:26:35 AM
+108 http request GET https://registry.npmjs.org/socket.io
+109 info attempt registry request try #2 at 11:26:35 AM
+110 http request GET https://registry.npmjs.org/impress-server
+111 info retry will retry, error on last attempt: Error: connect EACCES 151.101.44.162:443
+112 info retry will retry, error on last attempt: Error: connect EACCES 151.101.44.162:443
+113 info retry will retry, error on last attempt: Error: connect EACCES 151.101.44.162:443
+114 info retry will retry, error on last attempt: Error: connect EACCES 151.101.44.162:443
+115 info retry will retry, error on last attempt: Error: connect EACCES 151.101.44.162:443
+116 info retry will retry, error on last attempt: Error: connect EACCES 151.101.44.162:443
+117 info retry will retry, error on last attempt: Error: connect EACCES 151.101.44.162:443
+118 info attempt registry request try #3 at 11:27:35 AM
+119 http request GET https://registry.npmjs.org/dotenv
+120 info attempt registry request try #3 at 11:27:35 AM
+121 http request GET https://registry.npmjs.org/body-parser
+122 info attempt registry request try #3 at 11:27:35 AM
+123 http request GET https://registry.npmjs.org/cfenv
+124 info attempt registry request try #3 at 11:27:35 AM
+125 http request GET https://registry.npmjs.org/cloudant
+126 info attempt registry request try #3 at 11:27:35 AM
+127 http request GET https://registry.npmjs.org/express
+128 info attempt registry request try #3 at 11:27:35 AM
+129 http request GET https://registry.npmjs.org/socket.io
+130 info attempt registry request try #3 at 11:27:35 AM
+131 http request GET https://registry.npmjs.org/impress-server
+132 silly fetchPackageMetaData Error: connect EACCES 151.101.44.162:443
+132 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+132 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+132 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+132 silly fetchPackageMetaData  error for cloudant@^1.7.x { Error: connect EACCES 151.101.44.162:443
+132 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+132 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+132 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+132 silly fetchPackageMetaData   code: 'EACCES',
+132 silly fetchPackageMetaData   errno: 'EACCES',
+132 silly fetchPackageMetaData   syscall: 'connect',
+132 silly fetchPackageMetaData   address: '151.101.44.162',
+132 silly fetchPackageMetaData   port: 443 }
+133 silly fetchPackageMetaData Error: connect EACCES 151.101.44.162:443
+133 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+133 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+133 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+133 silly fetchPackageMetaData  error for dotenv@^4.0.0 { Error: connect EACCES 151.101.44.162:443
+133 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+133 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+133 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+133 silly fetchPackageMetaData   code: 'EACCES',
+133 silly fetchPackageMetaData   errno: 'EACCES',
+133 silly fetchPackageMetaData   syscall: 'connect',
+133 silly fetchPackageMetaData   address: '151.101.44.162',
+133 silly fetchPackageMetaData   port: 443 }
+134 silly fetchPackageMetaData Error: connect EACCES 151.101.44.162:443
+134 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+134 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+134 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+134 silly fetchPackageMetaData  error for socket.io@^0.9.19 { Error: connect EACCES 151.101.44.162:443
+134 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+134 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+134 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+134 silly fetchPackageMetaData   code: 'EACCES',
+134 silly fetchPackageMetaData   errno: 'EACCES',
+134 silly fetchPackageMetaData   syscall: 'connect',
+134 silly fetchPackageMetaData   address: '151.101.44.162',
+134 silly fetchPackageMetaData   port: 443 }
+135 silly fetchPackageMetaData Error: connect EACCES 151.101.44.162:443
+135 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+135 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+135 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+135 silly fetchPackageMetaData  error for impress-server@^0.0.8 { Error: connect EACCES 151.101.44.162:443
+135 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+135 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+135 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+135 silly fetchPackageMetaData   code: 'EACCES',
+135 silly fetchPackageMetaData   errno: 'EACCES',
+135 silly fetchPackageMetaData   syscall: 'connect',
+135 silly fetchPackageMetaData   address: '151.101.44.162',
+135 silly fetchPackageMetaData   port: 443 }
+136 silly fetchPackageMetaData Error: connect EACCES 151.101.44.162:443
+136 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+136 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+136 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+136 silly fetchPackageMetaData  error for body-parser@^1.17.x { Error: connect EACCES 151.101.44.162:443
+136 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+136 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+136 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+136 silly fetchPackageMetaData   code: 'EACCES',
+136 silly fetchPackageMetaData   errno: 'EACCES',
+136 silly fetchPackageMetaData   syscall: 'connect',
+136 silly fetchPackageMetaData   address: '151.101.44.162',
+136 silly fetchPackageMetaData   port: 443 }
+137 silly fetchPackageMetaData Error: connect EACCES 151.101.44.162:443
+137 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+137 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+137 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+137 silly fetchPackageMetaData  error for express@^4.15.x { Error: connect EACCES 151.101.44.162:443
+137 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+137 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+137 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+137 silly fetchPackageMetaData   code: 'EACCES',
+137 silly fetchPackageMetaData   errno: 'EACCES',
+137 silly fetchPackageMetaData   syscall: 'connect',
+137 silly fetchPackageMetaData   address: '151.101.44.162',
+137 silly fetchPackageMetaData   port: 443 }
+138 silly fetchPackageMetaData Error: connect EACCES 151.101.44.162:443
+138 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+138 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+138 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+138 silly fetchPackageMetaData  error for cfenv@^1.0.x { Error: connect EACCES 151.101.44.162:443
+138 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+138 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+138 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+138 silly fetchPackageMetaData   code: 'EACCES',
+138 silly fetchPackageMetaData   errno: 'EACCES',
+138 silly fetchPackageMetaData   syscall: 'connect',
+138 silly fetchPackageMetaData   address: '151.101.44.162',
+138 silly fetchPackageMetaData   port: 443 }
+139 silly rollbackFailedOptional Starting
+140 silly rollbackFailedOptional Finishing
+141 silly runTopLevelLifecycles Finishing
+142 silly install printInstalled
+143 verbose stack Error: connect EACCES 151.101.44.162:443
+143 verbose stack     at Object.exports._errnoException (util.js:1026:11)
+143 verbose stack     at exports._exceptionWithHostPort (util.js:1049:20)
+143 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+144 verbose cwd C:\Users\320603533\Desktop\XD Workshops\Information Architecture\app\iaworkshop-master
+145 error Windows_NT 6.1.7601
+146 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+147 error node v6.9.1
+148 error npm  v3.10.8
+149 error code EACCES
+150 error errno EACCES
+151 error syscall connect
+152 error Error: connect EACCES 151.101.44.162:443
+152 error     at Object.exports._errnoException (util.js:1026:11)
+152 error     at exports._exceptionWithHostPort (util.js:1049:20)
+152 error     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+152 error  { Error: connect EACCES 151.101.44.162:443
+152 error     at Object.exports._errnoException (util.js:1026:11)
+152 error     at exports._exceptionWithHostPort (util.js:1049:20)
+152 error     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+152 error   code: 'EACCES',
+152 error   errno: 'EACCES',
+152 error   syscall: 'connect',
+152 error   address: '151.101.44.162',
+152 error   port: 443,
+152 error   parent: 'get-started-node' }
+153 error Please try running this command again as root/Administrator.
+154 verbose exit [ 1, true ]
